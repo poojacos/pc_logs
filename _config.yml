@@ -314,40 +314,27 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      layout: single
+      layout: posts
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
 
-# Navigation
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Travel"
-    url: "/travel/"
-  - title: "Books"
-    url: "/books/"
-  - title: "Photography"
-    url: "/photography/"
-  - title: "Projects"
-    url: "/projects/"
-
 # Collections
 collections:
   travel:
     output: true
     permalink: /travel/:path/
-  books:
-    output: true
-    permalink: /books/:path/
   photography:
     output: true
     permalink: /photography/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+  # books:
+  #   output: true
+  #   permalink: /books/:path/
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/

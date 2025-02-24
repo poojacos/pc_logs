@@ -1,5 +1,11 @@
 # main links
 main:
+  - title: "Home"
+    url: "/"
+  - title: "Travel"
+    url: "/travel/"
+  - title: "Photography"
+    url: "/photography/"
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
