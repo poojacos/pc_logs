@@ -4,6 +4,7 @@ main:
     url: "/"
   - title: "Travel"
     url: "/travel/"
+    description: "Travel logs and guides"
   - title: "Photography"
     url: "/photography/"
   - title: "Quick-Start Guide"
